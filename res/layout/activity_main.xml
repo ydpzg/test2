@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+   
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_gravity="bottom"
+        android:text=""
+         />
+    <Button 
+        android:id="@+id/button_connect1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="connect1"
+        />
+    <Button 
+        android:id="@+id/button_connect2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="connect2"
+        />
+    <Button 
+        android:id="@+id/button_send1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="send1(20)"
+        />
+    <Button 
+        android:id="@+id/button_send2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="send2(20)"
+        />
+    <Button 
+        android:id="@+id/button_close1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="close_socket1"
+        />
+    <Button 
+        android:id="@+id/button_close2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="close_socket2"
+        />
+    
+	
+</LinearLayout>
